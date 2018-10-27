@@ -1,0 +1,10 @@
+<h1><b>SHOUT AT ME</b></h1>
+<%=form_for @tweet do|form|%>
+<%=form.text_field :title%>
+<%=form.label :title%>
+<%=form.text_field :content%>
+<%=form.label :content%>
+<%=form.text_area :links%>
+<%=form.label :links%>
+<%=form.submit%>
+<%end%>

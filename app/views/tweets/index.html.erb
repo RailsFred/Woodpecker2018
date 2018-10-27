@@ -1,0 +1,6 @@
+<h1><b><i>I'M SUPER BIG</i></b></h1>
+  <% @tweets.each do |tweet|%>
+    <p><b><%=tweet.title%></b></p>
+    <p><%=tweet.content%></p>
+    <p><u><%=tweet.links%></u></p>
+  <%end%>
